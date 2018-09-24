@@ -1,0 +1,27 @@
+p {
+  font-size: 12px;
+  font-family: open serif, arial, sans-serif;
+  font-weight: bold;
+  color: #444;
+}
+
+h1, h2, h3, h4, h5 {
+  font-size: 12px;
+font-family: open serif, arial, sans-serif;
+font-weight: bold;
+color: #444;
+}
+
+ul, li {
+  font-size: 12px;
+font-family: open serif, arial, sans-serif;
+font-weight: bold;
+color: #444;
+}
+
+h1 {
+  font-size: 3em;
+  color: #33485e;
+  font-variant-caps: titling-caps;
+  text-align: center;
+}
