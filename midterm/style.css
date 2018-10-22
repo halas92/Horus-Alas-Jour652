@@ -1,0 +1,54 @@
+#content { margin: 0 auto;
+width: 900px;}
+
+#banner {margin: 0 auto; display: block;}
+
+#headline {font-family: 'Georgia', sans-serif, arial;
+font-size: 1.5em; margin-top: 30px;
+width: 58%;
+border-bottom: 1px solid black;
+}
+
+#subhead1, #subhead3 {font-family: 'Lato', sans-serif, arial;
+font-size: 1em;
+margin: 10 5;}
+
+#photo1, #photo2, #photo3 {margin-top:20;
+  margin-left: 20; margin-right: 20;
+display: block;}
+
+#caption1, #caption2, #caption3 {font-family: 'Helvetica', sans-serif, arial;
+font-size: 12px; margin-left: 20px;}
+
+#bodytext, #question {font-family:'Helvetica', arial, sans-serif;
+font-size: 12px;
+margin-top: 20px;}
+
+#authors, #date, #outlet {font-family: 'Helvetica', arial, sans-serif;
+font-size: 12px;}
+
+#subhead2, #subhead4 {font-family: 'Lato', sans-serif, arial;
+font-size: 1em;
+margin: 10 5;}
+
+#subject1, #subject2, #subject3 {font-family: 'Helvetica', sans-serif, arial;
+font-size: 12px;}
+
+#links {font-family: 'Helvetica', serif, arial;
+font-size: 12px;
+list-style-type: none;
+margin-bottom: 40px;}
+
+#blockquote {
+font: 16px/24px normal helvetica, sans-serif;
+font-style: italic;
+margin-top: 15px;
+margin-bottom: 15px;
+color: #B22222;
+margin-left: 50px;
+padding-left: 15px;
+border: 3px solid #5A6372;
+width: 700px;
+position: relative;
+margin: 0 auto;
+}
