@@ -10,3 +10,10 @@
   color: red;
   font-size: 1.5em;
 }
+
+#menu {
+  text-family: sans-serif, arial;
+  font-weight: 400;
+  font-size: 1em;
+  color: red;
+}
