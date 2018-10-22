@@ -21,8 +21,9 @@ color: #444;
 margin-top: 0px; margin-bottom: 0px; margin-left: 0px; margin-right: 0px;
 text-align: center;
 list-style-type: none;
-display: inline;
 }
+
+#menu li {display: inline;}
 
 #name {
   font-size: 3em;

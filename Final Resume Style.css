@@ -1,0 +1,22 @@
+#photo {width: 800px;
+        height: auto;
+      }
+
+@media screen and (max-width: 480px) {
+ #photo {
+   width: 50%;
+   height: auto;
+ }
+
+#name {
+  font-family: 'Lato', sans-serif;
+  font-size: 3em;
+  font-weight: 400;
+}
+
+#content{
+  font-family: 'Lato', sans-serif;
+  font-size: 1 em;
+  font-weight: 400;
+  font-style: normal;
+}
