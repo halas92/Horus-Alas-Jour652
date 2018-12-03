@@ -4,7 +4,7 @@ width: 100%;
 margin: 0 auto;
 }
 
-#headline {font-size: 60px;
+#headline {font-size: 2.5em;
   font-family: 'Montserrat', Helvetica, sans-serif;
   text-align: center;
   font-weight: 700;
@@ -17,11 +17,12 @@ margin: 0 auto;
     }
 }
 
-#byline {font-size: 12px;
+#byline {font-size: 1em;
 font-family: 'Montserrat', arial, sans-serif;
-font-weight: 700;
-text-align: center;
+font-weight: 400;
 margin-bottom: 15px;
+max-width: 900px;
+width: 100%;
 }
 
 #chaptertitle {font-size: 32px;
@@ -34,7 +35,7 @@ font-weight: 400;}
   #introtext, p {font-size: 12px;}}
 
 @media only screen and (max-width: 600px) {
-  #introtext {font-size: 12px; text-align:left;}
+  #introtext {font-size: 12px; text-align: center;}
 }
 
 @media only screen and (max-width: 600px) {
@@ -74,31 +75,27 @@ ul.navbar-nav {
  font-family: 'Montserrat', sans-serif;
 }
 
-.topstars {width: 15px;}
-#star-one {margin-right: 5px;}
-#star-two {margin-right: 5px;}
+.icon {width: 70px; display: inline;}
+#banner-icon {margin-right: 5px;}
 
 .hero-image {width: 100%;
-max-width: 900px;}
-#hero {text-align: center;}
+max-width: 900px;
+margin: 0 auto;}
+#hero {text-align: center;
+margin: 0 auto;
+margin-top: 30px;}
 
-.centerstars {width: 15px; text-align: center; margin-bottom: 15px;}
-#star-three {margin-right: 10px; display: inline;}
-#star-four {margin-right: 10px; display: inline;}
-#star-five {margin-right: 10px; display: inline;}
-#star-six {display: inline;}
-#centeraccent {text-align: center;}
-
-#introtext {width: 100%;
+.introtext {width: 100%;
 max-width: 800px;
 margin-left: 150px; margin-right: 150px; margin-top: 10px; margin-bottom: 25px;
 font-family: "Montserrat", sans-serif, arial;
 font-weight: 700;
 font-size: 1.25em;}
 
-.chapterstars {width: 15px; display: inline;}
-#star-seven {margin-right: 10px; display: inline;}
-#star-eight {margin-right: 10px; display: inline;}
+
+
+.chap-icon {width: 100px; display: inline;}
+#chapter-icon {margin-right: 5px; display: inline;}
 #subheading {display: inline;
 padding-top: 20px; width: 100%; text-align: left;}
 #chaptertitle {font-family: "Montserrat", sans-serif;
@@ -107,7 +104,8 @@ font-weight: 700;
 display: inline;
 color: black;}
 
-.chaptertext {font-family: 'PT Serif', serif; color: black; font-size: 1em;}
+.chaptertext {font-family: 'PT Serif', serif, 'Times New Roman';
+font-size: 1em;}
 
 .stack-image {width:100%;
 max-width:900px;
@@ -132,12 +130,14 @@ text-align: center;
  border-bottom:1px solid #cdcdcd;
  font-family: 'Montserrat', sans-serif;
  margin:0 auto;
+ margin-bottom: 20px;
+ max-width: 1000px;
+ width: 100%
 }
 
 .graphic-caption {width: 100%;
   max-width: 900px;
   margin: 0 auto;
-padding-bottom: 30px;
 font-family: 'Montserrat', sans-serif;
 color: #999;
 text-align: center;
@@ -150,9 +150,11 @@ font-weight: 700;}
   font-weight: 700;
 }
 
-.graphic-text {font-family: 'Montserrat', sans-serif;
-font-weight: 700;
+.graphic-text1 {font-family: 'Montserrat', sans-serif;
+font-weight: 400; text-align: center;
 }
+.graphic-text {font-family: 'Montserrat', sans-serif;
+font-weight: 400;}
 
 #shootingsmap {
 padding-top:30px;

@@ -1,8 +1,8 @@
-.container {
+#container {
 max-width: 1000px;
-min-width: 300px;
 width: 100%;
 margin: 0 auto;
+background-color: red;
 }
 
 #headline {font-size: 60px;
@@ -60,6 +60,3 @@ text-align: center;}
 font-family: 'Lato', helvetica, 'Emrbia', sans-serif;
 color: darkgray;
 font-weight: 400;}
-
-#visualcontent {margin: 0 auto;
-align-content: center;}
