@@ -47,7 +47,7 @@ a:hover {color: #0052a5;}
 a:visited {#999;}
 
 
-p{
+p {
  text-align:left;
  line-height:180%;
 }
@@ -67,15 +67,15 @@ p{
 
 
 ul.navbar-nav {
- margin-left:50%;
+ margin-left: 20%;
+ display: inline;
 }
-
-
+.nav-item, .nav-item-active, .nav-link {display: inline; font-size: 1em;}
 .navbar {
  font-family: 'Montserrat', sans-serif;
 }
 
-.icon {width: 70px; display: inline;}
+.icon {width: 40px; display: inline;}
 #banner-icon {margin-right: 5px;}
 
 .hero-image {width: 100%;
