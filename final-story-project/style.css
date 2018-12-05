@@ -107,14 +107,6 @@ color: black;}
 .chaptertext {font-family: 'PT Serif', serif, 'Times New Roman';
 font-size: 1em;}
 
-.stack-image {width:100%;
-max-width:900px;
-margin:0 auto;
-padding-top:30px;
-text-align: center;
-}
-#photo1 {text-align: center;}
-
 .caption {width:100%;
  max-width:900px;
  margin:0 auto;
@@ -156,6 +148,13 @@ font-weight: 400; text-align: center;
 .graphic-text {font-family: 'Montserrat', sans-serif;
 font-weight: 400;}
 
+#photo1 {width: 100%;
+max-width: 900px;
+margin: 0 auto;}
+.photos {text-align: center;
+margin: 0 auto;
+margin-top: 30px;
+
 #shootingsmap {
 padding-top:30px;
 padding-bottom:30px;
@@ -167,9 +166,6 @@ width: 100%;
 max-width: 700px;}
 
 #maptext {text-align: center; font-family: 'Montserrat', sans-serif; font-weight: 700;}
-
-#star-nine {margin-right: 10px; display: inline;}
-#star-ten {margin-right: 10px; display: inline;}
 
 #carnage-graph {padding-top:30px;
 padding-bottom:30px;

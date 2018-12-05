@@ -48,7 +48,7 @@ initial-scale=1, shrink-to-fit=no">
        <a class="nav-link" href="#cp">College Park</a>
      </li>
      <li class="nav-item">
-       <a class="nav-link" href="#person">Trends on Route 1</a>
+       <a class="nav-link" href="#trends">Trends on Route 1</a>
      </li>
  </div>
 </nav>
@@ -95,13 +95,32 @@ The data records 99 transit fatalities throughout the county in 2017. Of those 9
 
 
 <p class="chaptertext">Despite the high number of pedestrian fatalities reported in Prince George's county, officials in College Park, Maryland, are optimistic about a net decrease in pedestrian incidents on Baltimore Ave.--also known colloquially as "Route 1"--thanks to the installation of a traffic median in the middle of the street and ongoing education and enforcement efforts.<br>
-The University of Maryland, an institution with <a href="https://irpa.umd.edu/CampusCounts/Enrollments/stuprofile_allug.pdf">30,000 undergraduate students</a> and <a href="https://irpa.umd.edu/CampusCounts/Enrollments/stuprofile_allgrad.pdf">10,000 graduate students</a> as of Fall 2018 is located due west of Route 1. With a large campus community that makes extensive use of the Route 1 roadway for transportation, the area has seen a notable quantity of pedestrian traffic incidents over the years.</p>
+The University of Maryland, an institution with <a href="https://irpa.umd.edu/CampusCounts/Enrollments/stuprofile_allug.pdf">30,000 undergraduate students</a> and <a href="https://irpa.umd.edu/CampusCounts/Enrollments/stuprofile_allgrad.pdf">10,000 graduate students</a> as of Fall 2018 is located due west of Route 1. With a large campus community that makes extensive use of the Route 1 roadway for transportation, the area has seen a notable quantity of pedestrian traffic incidents over the years.<br>
+And given that a full thirty percent of pedestrian transit fatalities within the D.C. metro area take place within Prince Geroge's County, as shown in the chart below, the host of the state's flagship university should be at the forefront of addressing those concerns.</p><br>
 
-In an email, Paulette Jones, Public Information Officer at the county's Public Works and Transportation division, cited a comprehensive approach emphasizing four "e"s of safety: "engineering,  education, enforcement and emergency services" as a way to improve public safety along roadways.<br>
+<!-- second graphic container-->
+<div class="graphic-container">
+  <h2 class="graphic-headline">Which areas have the most pedestrian fatalities?</h2>
+  <p class="graphic-text1">There were 79 pedestrian fatalities reported throughout the DC metro region last year.</p>
+  <div id="pedestrian-incidents"></div>
+  <p class="graphic-caption"><em>Data collected by The Metropolitan Washington Council of Governments' Street Smart campaign.</em>
+</div>
+<!-- END second graphic container-->
+<div id="pedestrian-incidents"></div><br>
 
-The stretch of Route One running south of this university's campus is considered a "high crash [corridor]," Jones wrote via email. She specified that high crash corridors are designated by the Maryland Department of Transportation's State Highway Administration as one-mile segments of road with "five or more crashes in a five-year period.""<br>
+<div class="row">
+  <div id="subheading">
+  <div id="chapter-icon"><img src="sign2.png" div class="chap-icon"></div>
+  <div id="chaptertitle"><a name="trends">Declining Fatalities on Route 1</a></div></div>
 
-The State Highway Administration’s data for 2017 records average daily traffic of 37,301 vehicles near the intersection of Route One and Campus Dr, making it among the busiest in the county.<br>
+<p class="chaptertext">In an email, Paulette Jones, Public Information Officer at the county's Public Works and Transportation division, cited a comprehensive approach emphasizing four "e"s of safety: "engineering,  education, enforcement and emergency services" as a way to improve public safety along roadways.<br>
+
+The stretch of Route One running south of this university's campus is considered a "high crash [corridor]," Jones wrote via email. She specified that high crash corridors are designated by the Maryland Department of Transportation's State Highway Administration as one-mile segments of road with "five or more crashes in a five-year period.<br>
+
+The State Highway Administration's data for 2017 records average daily traffic of 37,301 vehicles near the intersection of Route One and Campus Drive, making it among the busiest in the county.<br>
+
+<div id="photo1"><img src="cptrafficmap.jpg" width= 800 height= 500 div class="photos">
+<p class= "caption">A Maryland Department of Transportation State Highway Association average daily traffic map for Prince George's County in 2017. The immediate vicinity of College Park and the Route 1 corridor have been emphasized. Obtained via the SHA's <a href="https://www.roads.maryland.gov/Traffic_Volume_Maps/Traffic_Volume_Maps.pdf">Traffic Maps by County.</a></p></div>
 
 Nevertheless, officials from MDOT SHA report a drop in traffic incidents along Route One in recent years.<br>
 
@@ -163,6 +182,38 @@ As of this point in 2018, no new pedestrian fatalities have been reported along 
      pattern: ['#2a8dc5', '#455380', '#ee6a4b', '#60c4b2', '#973895', '#fae255', '#af3d46', '#f8bb63', '#818281', '#00cc00', '#cc7a00', '#9494b8', '#ff1a8c', '#004d99', '#bf8040',]
    }
  });
+
+ var chart3 = c3.generate({
+  bindto: '#pedestrian-incidents',
+  data: {
+    // iris data from R
+    columns: [
+      ['Alexadnria City', 2],
+      ['Arlington Co.', 2],
+      ['Fairfax City', 0],
+      ['Fairfax Co.', 10],
+      ['Falls Church', 0],
+      ['Loudon Co.', 2],
+      ['Manassas', 1],
+      ['Manassas Park City', 0],
+      ['Charles Co.', 6],
+      ['Frederick Co.', 3],
+      ['Montgomery Co.', 14],
+      ['Prince Georges Co.', 24],
+      ['Prince William Co.', 4],
+      ['District of Columbia', 11],
+
+
+    ],
+    type : 'pie',
+    onclick: function (d, i) { console.log("onclick", d, i); },
+    onmouseover: function (d, i) { console.log("onmouseover", d, i); },
+    onmouseout: function (d, i) { console.log("onmouseout", d, i); }
+  },
+  color: {
+    pattern: ['#2a8dc5', '#455380', '#ee6a4b', '#60c4b2', '#973895', '#fae255', '#af3d46', '#f8bb63', '#818281', '#00cc00', '#cc7a00', '#9494b8', '#ff1a8c', '#004d99', '#bf8040',]
+  }
+});
 
  </script>
 
