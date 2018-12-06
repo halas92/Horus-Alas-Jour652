@@ -19,11 +19,13 @@ margin: 0 auto;
 
 #byline {font-size: 1em;
 font-family: 'Montserrat', arial, sans-serif;
-font-weight: 400;
+font-weight: 500;
 margin-bottom: 15px;
 max-width: 900px;
-width: 100%;
+width: 13%;
+border: 2px solid #cdcdcd;
 }
+#b-text {padding-left: 5px;}
 
 #chaptertitle {font-size: 32px;
 font-family: 'Lato', helvetica, 'Embria', sans-serif;
@@ -154,58 +156,11 @@ margin: 0 auto;}
 .photos {text-align: center;
 margin: 0 auto;
 margin-top: 30px;
-
-#shootingsmap {
-padding-top:30px;
-padding-bottom:30px;
-border-top:1px solid #cdcdcd;
-border-bottom:1px solid #cdcdcd;
-font-family: 'Montserrat', sans-serif;
-margin:0 auto;
-width: 100%;
-max-width: 700px;}
+border: 2px solid #cdcdcd;
+max-width: 800;
+width: 100%;}
 
 #maptext {text-align: center; font-family: 'Montserrat', sans-serif; font-weight: 700;}
-
-#carnage-graph {padding-top:30px;
-padding-bottom:30px;
-border-top:1px solid #cdcdcd;
-border-bottom:1px solid #cdcdcd;
-font-family: 'Montserrat', sans-serif;
-margin:0 auto;
-width: 100%;
-max-width: 1000px;}
-
-#bargraph {padding-top:30px;
-padding-bottom:30px;
-border-top:1px solid #cdcdcd;
-border-bottom:1px solid #cdcdcd;
-font-family: 'Montserrat', sans-serif;
-margin:0 auto;
-width: 100%;
-max-width: 1000px;}
-
-#photo2, #interactivemap {padding-top:30px;
-padding-bottom:30px;
-border-top:1px solid #cdcdcd;
-border-bottom:1px solid #cdcdcd;
-margin:0 auto;
-width: 100%;
-max-width: 1000px;}
-
-#interactivemap {margin-bottom: 30px;}
-
-#star11, #star12, #star13, #star14 {margin-right: 10px; display: inline;}
-
-#race-chart {padding-top: 30px;
-padding-bottom: 30px;
-border-top: 1px solid #cdcdcd;
-border-bottom: 1px solid #cdcdcd;
-font-family: 'Montserrat', sans-serif;
-margin: 0 auto;
-width: 100%;
-max-width: 1000px;
-margin-bottom: 30px;}
 
 #databox {margin-top: 50px;
 margin-bottom: 50px;
@@ -227,15 +182,6 @@ text-align: left;
 padding-left: 10px;
 font-weight: 400;}
 
-#photo3 {margin: 0 auto;
-margin-top: 30px;
-width: 400;
-text-align: center;
-overflow-wrap: break-word;}
-
-#caption3 {margin: 0 auto;
-width: 100%;
-overflow-wrap: break-word;}
 
 #footer {width: 100%;
 max-width: 2000px;
