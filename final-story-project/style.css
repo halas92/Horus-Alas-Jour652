@@ -29,7 +29,7 @@ border: 2px solid #cdcdcd;}
   .introtext, .chaptertext, .navbar, .caption, #subheading, .navbar navbar-expand-lg navbar-dark bg-dark, .row, #byline, nav {font-size: 12px; margin: 0 auto; width: 100%;}}
 
 @media only screen and (max-width: 600px) {
-  #hero, .hero-image, .photos, #photo1, {margin: 0 auto; width: 100%;}}
+  #hero, .hero-image, .photos, #photo1, #photo2, #photo3 {margin: 0 auto; width: 100%;}}
 
 @media only screen and (max-width: 600px) {.nav-item, .nav-item-active, .nav-link, .navbar, ul.navbar-nav, .navbar-toggler, .navbar-toggler-icon {margin: 0 auto; width: 100%;}}
 
@@ -56,7 +56,7 @@ margin: 0 auto;}
 #hero {text-align: center;
 margin: 0 auto;
 max-width: 900px;
-margin-top: 30px;}
+margin-top: 50px;}
 
 .introtext {width: 100%;
 margin-top: 10px; margin-bottom: 25px; margin: 0 auto;
@@ -84,7 +84,7 @@ font-size: 1em;}
  margin:0 auto;
  padding-bottom:30px;
  font-family: 'Montserrat', sans-serif;
- color:#999;}
+ color:#3d3d29;}
 
 .graphic-container {
  padding-top:30px;
@@ -115,7 +115,7 @@ font-weight: 400; text-align: center;}
 .graphic-text {font-family: 'Montserrat', sans-serif;
 font-weight: 400;}
 
-#photo1 {width: 100%;
+#photo1, #photo2, #photo3 {width: 100%;
 max-width: 900px;
 margin: 0 auto;}
 .photos {text-align: center;
