@@ -1,4 +1,5 @@
-#container {width: 100%;
+.container {max-width: 1400px;
+width: 100%;
 margin: 0 auto;}
 
 #headline {font-size: 2.5em;
@@ -27,7 +28,7 @@ border: 2px solid #cdcdcd;}
   .introtext, .chaptertext, .navbar, .caption, #subheading, .navbar navbar-expand-lg navbar-dark bg-dark, .row, #byline, nav {font-size: 12px; margin: 0 auto; width: 100%;}}
 
 @media only screen and (max-width: 600px) {
-  #hero, .hero-image, .photos, #photo1, #photo2, #photo3 {margin: 0 auto; width: 100%;}}
+  #hero, .hero-image, .photos, #photo1, #photo2, #photo3 {margin: 0 auto; width: 100%; height: auto;}}
 
 @media only screen and (max-width: 600px) {.nav-item, .nav-item-active, .nav-link, .navbar, ul.navbar-nav, .navbar-toggler, .navbar-toggler-icon {margin: 0 auto; width: 100%;}}
 
@@ -53,6 +54,7 @@ max-width: 900px;
 margin: 0 auto;}
 #hero {text-align: center;
 margin: 0 auto;
+padding-top: 5px; padding-left: 5px; padding-right: 5px;
 max-width: 900px;
 margin-top: 50px;}
 
@@ -63,8 +65,6 @@ font-family: "Montserrat", sans-serif, arial;
 font-weight: 500;
 font-size: 1.25em;}
 
-
-
 .chap-icon {width: 100px; display: inline;}
 #chapter-icon {margin-right: 5px; display: inline;}
 #subheading {display: inline;
@@ -74,6 +74,9 @@ font-size: 2em;
 font-weight: 700;
 display: inline;
 color: black;}
+
+.intro {max-width: 1200px; margin: 0 auto;}
+.content {max-width: 1200px; margin: 0 auto;}
 
 .chaptertext {font-family: 'PT Serif', serif, 'Times New Roman';
 font-size: 1em;}
@@ -119,14 +122,13 @@ margin: 0 auto;}
 .photos {text-align: center;
 margin: 0 auto;
 margin-top: 30px;
-border: 2px solid #cdcdcd;
 max-width: 800;
 width: 100%;}
 
 #footer {width: 100%;
 margin: 0 auto;
 background-color: black;
-height: 100px;
+height: 75px;
 font-size: 12px;
 color: white;
 font-family: 'Montserrat', arial, sans-serif;
@@ -134,3 +136,5 @@ display: block;
 margin-top: 30px;
 margin-bottom: 5px;
 text-align: center;}
+
+#ftext {padding-bottom: 10px;}
