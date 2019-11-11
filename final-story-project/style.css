@@ -3,9 +3,9 @@ width: 100%;
 margin: 0 auto;}
 
 #headline {font-size: 2.5em;
-  font-family: 'Montserrat', Helvetica, sans-serif;
-  text-align: center;
-  font-weight: 700;}
+font-family: 'Montserrat', Helvetica, sans-serif;
+text-align: center;
+font-weight: 700;}
 
 #byline {font-size: 1em;
 font-family: 'Montserrat', arial, sans-serif;
@@ -16,25 +16,32 @@ width: 13%;
 border: 2px solid #cdcdcd;}
 #b-text {padding-left: 5px;}
 
-@media only screen and (max-width: 600px) {
-    #headline, #container {font-size: 20px; margin: 0 auto; width: 100%;}
-    .graphic-container, iframe {margin: 0 auto; width: 100%;}
-    .navbar-brand {max-width: 100%; font-size: 20px;}}
+@media only screen and (max-width: 600px) {#headline, #container {font-size: 20px; margin: 0 auto; width: 100%;}
+.graphic-container, iframe {margin: 0 auto; width: 100%;}
+.navbar-brand {width: auto; font-size: 10px; display: inline; overflow: visible;}
+nav.navbar.navbar-expand-lg.navbar-dark.bg-dark {width: 100%;}
+img.icon {display: none;}
+button.navbar-toggler {display: inline; float: left;}
+#photo1 {margin: 0 auto; width: 100%; height: 150;} .photos {width: 100%; height: 150;}
+#chaptertitle, .subheading {font-size: 16px;}
+.introtext, .chaptertext, .navbar, .caption, #subheading, .row, #byline, nav {font-size: 12px; margin: 0 auto; width: 100%;}
+#hero, .hero-image, .photos, #photo1, #photo2, #photo3 {margin: 0 auto; width: 100%; height: auto;}
+.chap-icon {width: 10%;}
+.nav-item, .nav-item-active, .nav-link, .navbar, ul.navbar-nav, {margin: 0 auto; width: 100%;}}
 
-@media only screen and (max-width: 600px) {#photo1 {margin: 0 auto; width: 100%; height: 150;} .photos {width: 100%; height: 150;}}
+@media only screen and (max-width: 770px) {button.navbar-toggler {display: none;}
+.navbar-brand {font-size: 16px; overflow: auto;}}
+@media only screen and (max-width: 810px) {img.icon {display: none;}}
+@media only screen and (min-width: 810px) {img.icon {display: inline;}}
 
-@media only screen and (max-width: 600px) {
-  #chaptertitle, .subheading {font-size: 16px;}
-  .introtext, .chaptertext, .navbar, .caption, #subheading, .navbar navbar-expand-lg navbar-dark bg-dark, .row, #byline, nav {font-size: 12px; margin: 0 auto; width: 100%;}}
-
-@media only screen and (max-width: 600px) {
-  #hero, .hero-image, .photos, #photo1, #photo2, #photo3 {margin: 0 auto; width: 100%; height: auto;}}
-
-@media only screen and (max-width: 600px) {.nav-item, .nav-item-active, .nav-link, .navbar, ul.navbar-nav, .navbar-toggler, .navbar-toggler-icon {margin: 0 auto; width: 100%;}}
+@media only screen and (min-width: 600px) {#introtext {font-size: 1.25em;}
+#chaptertitle {font-size: 2em;}
+.chap-icon {width: 100px;}}
 
 a:link {color: #e0162b;}
 a:hover {color: #0052a5;}
 a:visited {#999;}
+.element::-webkit-scrollbar { width: 0 !important }
 
 p {text-align:left;
  line-height:180%;}
@@ -46,7 +53,7 @@ ul.navbar-nav {margin-left: 20%; display: inline;}
 .nav-item, .nav-item-active, .nav-link {display: inline; font-size: 1em;}
 .navbar {font-family: 'Montserrat', sans-serif;}
 
-.icon {width: 40px; display: inline;}
+.icon {width: 40px;}
 #banner-icon {margin-right: 5px;}
 
 .hero-image {width: 100%;
@@ -62,15 +69,13 @@ margin-top: 50px;}
 margin-top: 10px; margin-bottom: 25px; margin: 0 auto;
 padding-bottom: 25px;
 font-family: "Montserrat", sans-serif, arial;
-font-weight: 500;
-font-size: 1.25em;}
+font-weight: 500;}
 
-.chap-icon {width: 100px; display: inline;}
+.chap-icon {display: inline;}
 #chapter-icon {margin-right: 5px; display: inline;}
 #subheading {display: inline;
-padding-top: 20px; width: 100%; text-align: left;}
+padding-top: 20px; text-align: left;}
 #chaptertitle {font-family: "Montserrat", sans-serif;
-font-size: 2em;
 font-weight: 700;
 display: inline;
 color: black;}
