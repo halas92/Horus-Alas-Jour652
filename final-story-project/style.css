@@ -1,30 +1,19 @@
-.container {max-width: 1400px;
-width: 100%;
-margin: 0 auto;}
+.container {max-width: 1400px; width: 100%; margin: 0 auto;}
 
-#headline {font-size: 2.5em;
-font-family: 'Montserrat', Helvetica, sans-serif;
-text-align: center;
-font-weight: 700;}
 
-#byline {font-size: 1em;
-font-family: 'Montserrat', arial, sans-serif;
-font-weight: 500;
-margin-bottom: 15px;
-max-width: 900px;
-width: 13%;
-border: 2px solid #cdcdcd;}
-#b-text {padding-left: 5px;}
-
-@media only screen and (max-width: 600px) {#headline, #container {font-size: 20px; margin: 0 auto; width: 100%;}
+@media only screen and (max-width: 600px) {.intro, .content {padding-left: 15px; padding-right: 15px;}
+#headline, #container {font-size: 20px; margin: 0 auto; width: 100%;}
 .graphic-container, iframe {margin: 0 auto; width: 100%;}
 .navbar-brand {width: auto; font-size: 10px; display: inline; overflow: visible;}
 nav.navbar.navbar-expand-lg.navbar-dark.bg-dark {width: 100%;}
+nav.navbar.navbar-expand-lg.navbar-dark.bg-dark::-webkit-scrollbar {display: none;}
 img.icon {display: none;}
 button.navbar-toggler {display: inline; float: left;}
 #photo1 {margin: 0 auto; width: 100%; height: 150;} .photos {width: 100%; height: 150;}
-#chaptertitle, .subheading {font-size: 16px;}
-.introtext, .chaptertext, .navbar, .caption, #subheading, .row, #byline, nav {font-size: 12px; margin: 0 auto; width: 100%;}
+#chaptertitle, #headline, .subheading, .graphic-headline {font-size: 16px;}
+.introtext, .chaptertext, .navbar, #subheading, .row, #byline, nav {font-size: 12px; margin: 0 auto; width: 100%;}
+.caption, #byline, .graphic-caption {font-size: 10px;}
+.graphic-text, .graphic-text1 {font-size: 12px;}
 #hero, .hero-image, .photos, #photo1, #photo2, #photo3 {margin: 0 auto; width: 100%; height: auto;}
 .chap-icon {width: 10%;}
 .nav-item, .nav-item-active, .nav-link, .navbar, ul.navbar-nav, {margin: 0 auto; width: 100%;}}
@@ -34,112 +23,57 @@ button.navbar-toggler {display: inline; float: left;}
 @media only screen and (max-width: 810px) {img.icon {display: none;}}
 @media only screen and (min-width: 810px) {img.icon {display: inline;}}
 
-@media only screen and (min-width: 600px) {#introtext {font-size: 1.25em;}
-#chaptertitle {font-size: 2em;}
-.chap-icon {width: 100px;}}
+@media only screen and (min-width: 600px) {.intro, .content {padding-left: 30px; padding-right: 30px;}
+#introtext {font-size: 1.25em;}
+#chaptertitle, .graphic-headline, #headline {font-size: 2em;}
+.chap-icon {width: 100px;}
+.caption, #byline, .graphic-caption {font-size: 12px;}
+.chaptertext, .graphic-text, .graphic-text1 {font-size: 1em;}}
 
-a:link {color: #e0162b;}
+a, a:link {color: #e0162b;}
 a:hover {color: #0052a5;}
 a:visited {#999;}
 .element::-webkit-scrollbar { width: 0 !important }
+ul.navbar-nav {margin-left: 20%; display: inline;}
+.nav-item, .nav-item-active, .nav-link {display: inline; font-size: 1em;}
+.navbar {font-family: 'Montserrat', sans-serif;}
+.navbar::-webkit-scrollbar {display: none;}
 
 p {text-align:left;
  line-height:180%;}
 .red {color: #e0162b;}
 .blue {color: #0052a5;}
 .bg-dark {background:#000 !important;}
-
-ul.navbar-nav {margin-left: 20%; display: inline;}
-.nav-item, .nav-item-active, .nav-link {display: inline; font-size: 1em;}
-.navbar {font-family: 'Montserrat', sans-serif;}
+#headline {font-family: 'Montserrat', Helvetica, sans-serif; text-align: center; font-weight: 700; margin-bottom: 3%;}
+#byline {font-family: 'Montserrat', arial, sans-serif; font-weight: 500; margin-bottom: 15px; max-width: 900px; width: 100%; color:#3d3d29; line-height: 150%;}
+.introtext {width: 100%; margin-top: 10px; margin-bottom: 25px; margin: 0 auto; padding-bottom: 25px;
+font-family: "Montserrat", sans-serif, arial; font-weight: 500;}
+#subheading {display: inline; padding-top: 20px; padding-bottom: 2%; text-align: left;}
+#chaptertitle {font-family: "Montserrat", sans-serif; font-weight: 700; display: inline; color: black;}
 
 .icon {width: 40px;}
 #banner-icon {margin-right: 5px;}
 
-.hero-image {width: 100%;
-max-width: 900px;
-margin: 0 auto;}
-#hero {text-align: center;
-margin: 0 auto;
-padding-top: 5px; padding-left: 5px; padding-right: 5px;
-max-width: 900px;
-margin-top: 50px;}
-
-.introtext {width: 100%;
-margin-top: 10px; margin-bottom: 25px; margin: 0 auto;
-padding-bottom: 25px;
-font-family: "Montserrat", sans-serif, arial;
-font-weight: 500;}
+.hero-image {width: 100%; max-width: 900px; margin: 0 auto;}
+#hero {text-align: center; margin: 0 auto; padding-top: 5px; padding-left: 5px; padding-right: 5px; max-width: 900px; margin-top: 50px;}
 
 .chap-icon {display: inline;}
 #chapter-icon {margin-right: 5px; display: inline;}
-#subheading {display: inline;
-padding-top: 20px; text-align: left;}
-#chaptertitle {font-family: "Montserrat", sans-serif;
-font-weight: 700;
-display: inline;
-color: black;}
 
 .intro {max-width: 1200px; margin: 0 auto;}
 .content {max-width: 1200px; margin: 0 auto;}
+.chaptertext {font-family: 'PT Serif', serif, 'Times New Roman'; padding-bottom: 5%;}
+.caption {margin: 0 auto; padding-bottom: 30px; font-family: 'Montserrat', sans-serif; line-height: 150%; color:#3d3d29;}
 
-.chaptertext {font-family: 'PT Serif', serif, 'Times New Roman';
-font-size: 1em;}
+.graphic-container {padding-top:30px; padding-bottom:30px; border-top:1px solid #cdcdcd; border-bottom:1px solid #cdcdcd; font-family: 'Montserrat', sans-serif; margin:0 auto; margin-bottom: 20px; max-width: 1000px; width: 100%}
 
-.caption {
- margin:0 auto;
- padding-bottom:30px;
- font-family: 'Montserrat', sans-serif;
- color:#3d3d29;}
+.graphic-caption {width: 100%; max-width: 900px; margin: 0 auto; font-family: 'Montserrat', sans-serif; color: #e0162b; text-align: center; font-weight: 700;}
+.graphic-headline {font-family: 'Montserrat', sans-serif; text-align: center; font-weight: 700;}
+.graphic-text1 {font-family: 'Montserrat', sans-serif; font-weight: 400; text-align: center;}
+.graphic-text {font-family: 'Montserrat', sans-serif; font-weight: 400;}
 
-.graphic-container {
- padding-top:30px;
- padding-bottom:30px;
- border-top:1px solid #cdcdcd;
- border-bottom:1px solid #cdcdcd;
- font-family: 'Montserrat', sans-serif;
- margin:0 auto;
- margin-bottom: 20px;
- max-width: 1000px;
- width: 100%}
+#photo1, #photo2, #photo3 {width: 100%; max-width: 900px; margin: 0 auto;}
+.photos {text-align: center; margin: 0 auto; margin-top: 30px; max-width: 800; width: 100%;}
 
-.graphic-caption {width: 100%;
-  max-width: 900px;
-  margin: 0 auto;
-font-family: 'Montserrat', sans-serif;
-color: #e0162b;
-text-align: center;
-font-weight: 700;}
-
-.graphic-headline {font-size: 2em;
-  font-family: 'Montserrat', sans-serif;
-  text-align: center;
-  font-weight: 700;}
-
-.graphic-text1 {font-family: 'Montserrat', sans-serif;
-font-weight: 400; text-align: center;}
-.graphic-text {font-family: 'Montserrat', sans-serif;
-font-weight: 400;}
-
-#photo1, #photo2, #photo3 {width: 100%;
-max-width: 900px;
-margin: 0 auto;}
-.photos {text-align: center;
-margin: 0 auto;
-margin-top: 30px;
-max-width: 800;
-width: 100%;}
-
-#footer {width: 100%;
-margin: 0 auto;
-background-color: black;
-height: 75px;
-font-size: 12px;
-color: white;
-font-family: 'Montserrat', arial, sans-serif;
-display: block;
-margin-top: 30px;
-margin-bottom: 5px;
-text-align: center;}
-
-#ftext {padding-bottom: 10px;}
+#footer {width: 100%; margin: 0 auto; background-color: black; height: 75px; font-size: 12px; color: white; font-family: 'Montserrat', arial, sans-serif; display: block; margin-top: 30px; margin-bottom: 5px; text-align: center;}
+#ftext {}
