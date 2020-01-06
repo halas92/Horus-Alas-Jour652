@@ -3,8 +3,10 @@
 #introtext {font-size: 1.25em;}
 #chaptertitle, .graphic-headline, #headline {font-size: 2em;}
 .chap-icon {width: 100px;}
-.caption, #byline, .graphic-caption {font-size: 12px;}
+.caption, #byline, .graphic-caption, .icon-subtitle {font-size: 12px;}
 .chaptertext, .graphic-text, .graphic-text1 {font-size: 1em;}
+.navbar::-webkit-scrollbar {display: none;}
+nav.navbar.navbar-expand-lg.navbar-dark.bg-dark::-webkit-scrollbar {display: none;}
 #footer {font-size: 12px;}}
 
 /*Responsiveness for mid-size viewports*/
@@ -20,14 +22,15 @@ button.navbar-toggler {display: inline; float: left;}
 #photo1 {margin: 0 auto; width: 100%; height: 150;} .photos {width: 100%; height: 150;}
 #chaptertitle, #headline, .subheading, .graphic-headline {font-size: 16px;}
 .introtext, .chaptertext, .navbar, #subheading, #byline, nav {font-size: 12px; margin: 0 auto; width: 100%;}
-.caption, #byline, .graphic-caption, #footer {font-size: 10px;}
+.caption, #byline, .graphic-caption, #footer, .icon-subtitle {font-size: 10px;}
 .graphic-text, .graphic-text1 {font-size: 12px;}
 #hero, .hero-image, .photos, #photo1, #photo2, #photo3 {margin: 0 auto; width: 100%; height: auto;}
 .chap-icon {width: 10%;}
 .nav-item, .nav-item-active, .nav-link, .navbar, ul.navbar-nav, {margin: 0 auto; width: 100%;}}
 
 /*Responsiveness for smallest, mobile viewports*/
-@media only screen and (max-width: 400px) {.caption, #byline, .graphic-caption, #footer {font-size: 8px;}}
+@media only screen and (max-width: 400px) {.caption, #byline, .graphic-caption, #footer, .icon-subtitle {font-size: 8px;}
+nav.navbar.navbar-expand-lg.navbar-dark.bg-dark::-webkit-scrollbar {display: none;}}
 
 /*Responsive navbar behaviors*/
 @media only screen and (max-width: 770px) {button.navbar-toggler {display: none;}
@@ -36,9 +39,12 @@ button.navbar-toggler {display: inline; float: left;}
 @media only screen and (min-width: 810px) {img.icon {display: inline;}}
 
 /*links and interactives*/
+html {scroll-behavior: smooth;}
 a, a:link {color: #e0162b;}
 a:hover {color: #0052a5;}
 a:visited {#999;}
+a.home-arrow:hover {font-size: 150%; transition: .5s;}
+a.icon-sub-link:hover {text-decoration: none;}
 #footer-link {color: rgba(255,255,255,0.6);}
 #footer-link:hover {color: rgba(255,255,255,1); text-decoration: none;}
 .red {color: #e0162b;}
@@ -51,9 +57,13 @@ ul.navbar-nav {margin-left: 20%; display: inline;}
 .container {max-width: 3000px; width: 100%; margin: 0 auto; padding-left: 0px; padding-right: 0px;}
 .navbar {font-family: 'Montserrat', sans-serif;}
 .navbar::-webkit-scrollbar {display: none;}
+nav.navbar.navbar-expand-lg.navbar-dark.bg-dark::-webkit-scrollbar {display: none;}
 .intro {max-width: 1200px; margin: 0 auto;}
 .content {max-width: 1200px; margin: 0 auto;}
-.graphic-container {padding-top:30px; padding-bottom:30px; border-top:1px solid #cdcdcd; border-bottom:1px solid #cdcdcd; font-family: 'Montserrat', sans-serif; margin:0 auto; margin-bottom: 20px; max-width: 1000px; width: 100%}
+.graphic-container {padding-top:30px; padding-bottom:30px; border-top:1px solid #cdcdcd; border-bottom:1px solid #cdcdcd; font-family: 'Montserrat', sans-serif; margin:0 auto; margin-top: 20px; margin-bottom: 20px; max-width: 1000px; width: 100%}
+iframe {margin-top: 4%; margin-bottom: 4%;}
+.end-links {width: 100%; margin: 0 auto; height: auto; display: block; margin-bottom: 30px; text-align: right; padding-right: 5%;}
+.icon-links {display: inline-block; text-align: center;}
 #footer {width: 100%; margin: 0 auto; background-color: black; height: 75px; color: white; font-family: 'Montserrat', arial, sans-serif; display: block; margin-top: 30px; padding-left: 2%; padding-right: 2%; text-align: center;}
 
 /*Text, etc.*/
@@ -76,7 +86,7 @@ p {text-align: left; line-height: 180%;}
 #banner-icon {margin-right: 5px;}
 .hero-image {width: 100%; max-width: 900px; margin: 0 auto;}
 #hero {text-align: center; margin: 0 auto; padding-top: 5px; padding-left: 5px; padding-right: 5px; max-width: 900px; margin-top: 50px;}
-.chap-icon {display: inline;}
+.chap-icon {display: inline; background: repeating-linear-gradient(45deg, black, white 100px);}
 #chapter-icon {margin-right: 5px; display: inline;}
 #photo1, #photo2, #photo3 {width: 100%; max-width: 900px; margin: 0 auto;}
 .photos {text-align: center; margin: 0 auto; margin-top: 30px; max-width: 800; width: 100%;}
