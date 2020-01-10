@@ -1,6 +1,7 @@
 /*Responsiveness for large, desktop viewports*/
 @media only screen and (min-width: 600px) {.intro, .content {padding-left: 30px; padding-right: 30px;}
 #introtext {font-size: 1.25em;}
+#hero, .hero-image, .photos, #photo1, #photo2, #photo3 {margin: 0 auto; width: 100%; height: auto;}
 #chaptertitle, .graphic-headline, #headline {font-size: 2em;}
 .chap-icon {width: 100px;}
 .caption, #byline, .graphic-caption, .icon-subtitle {font-size: 12px;}
@@ -48,8 +49,9 @@ a:visited {#999;}
 a.home-arrow, a.icon-sub-link {color: black;}
 a.home-arrow:hover {font-size: 150%; transition: .5s; color: #e0162b;}
 a.icon-sub-link:hover {text-decoration: none; color: #e0162b;}
-#footer-link {color: rgba(255,255,255,0.6);}
-#footer-link:hover {color: rgba(255,255,255,1); text-decoration: none;}
+#footer-logo {display: inline-block; margin-top: inherit; float: right; font-size: 16px; font-family: 'Proxima Nova', 'Helvetica', 'Arial', sans-serif; font-weight: 700;}
+#footer-link, #footer-logo {color: rgba(255,255,255,0.6);}
+#footer-link:hover, #footer-logo:hover {color: rgba(255,255,255,1); text-decoration: none;}
 .red {color: #e0162b;}
 .blue {color: #0052a5;}
 .element::-webkit-scrollbar { width: 0 !important }
@@ -83,6 +85,7 @@ p {text-align: left; line-height: 180%;}
 .graphic-headline {font-family: 'Montserrat', sans-serif; text-align: center; font-weight: 700;}
 .graphic-text1 {font-family: 'Montserrat', sans-serif; font-weight: 400; text-align: center;}
 .graphic-text {font-family: 'Montserrat', sans-serif; font-weight: 400;}
+#footer-text {display: inline-block; width: 80%; margin: 0 auto;}
 
 /*Icons and images*/
 .icon {width: 40px;}
